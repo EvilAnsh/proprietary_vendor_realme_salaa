@@ -3258,27 +3258,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpkm",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libpkm.so"],
-			shared_libs: ["libutils", "libcutils", "libc++", "libdecrypt", "libpcap", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "vendor.mediatek.hardware.mdmonitor@1.0", "vendor.mediatek.hardware.apmonitor@2.0", "libapmonitor_vendor", "libicd_decoder", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libpkm.so"],
-			shared_libs: ["libutils", "libcutils", "libc++", "libdecrypt", "libpcap", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "vendor.mediatek.hardware.mdmonitor@1.0", "vendor.mediatek.hardware.apmonitor@2.0", "libapmonitor_vendor", "libicd_decoder", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libpq_cust_base",
 	owner: "realme",
 	strip: {
@@ -23681,23 +23660,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/mtk_agpsd"],
 			shared_libs: ["libcutils", "liblog", "libutils", "libandroid_net", "libcrypto", "libexpat", "libssl", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "mtk_pkm_service",
-	owner: "realme",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/mtk_pkm_service"],
-			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

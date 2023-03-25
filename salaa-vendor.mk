@@ -312,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    vendor/realme/salaa/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
@@ -574,7 +573,6 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     liboplus_audio_config \
-    libpkm \
     libpq_cust_base \
     libpqframework \
     libpqparamparser \
@@ -1769,7 +1767,6 @@ PRODUCT_PACKAGES += \
     mrdump_tool \
     mt6660_calibration \
     mtk_agpsd \
-    mtk_pkm_service \
     muxreport \
     netdagent \
     netdc \
