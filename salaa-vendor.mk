@@ -643,7 +643,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.commondcs@1.0 \
     android.hardware.audio@7.0-impl-mediatek \
     audio.primary.mt6785 \
-    audio.r_submix.mt6785 \
     libHEVCdec_sa.ca7.android \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
