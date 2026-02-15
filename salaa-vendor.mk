@@ -1523,7 +1523,7 @@ PRODUCT_PACKAGES += \
     liburee_meta_drmkeyinstall \
     libvia-ril \
     libviamipc-ril \
-    libwifi-hal-mtk \
+    libwapi \
     libwifitest \
     libwpfa \
     libwvhidl \
