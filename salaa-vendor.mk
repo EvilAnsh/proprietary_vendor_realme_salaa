@@ -1528,7 +1528,6 @@ PRODUCT_PACKAGES += \
     liburee_meta_drmkeyinstall \
     libvia-ril \
     libviamipc-ril \
-    libwapi \
     libwifitest \
     libwpfa \
     libwvhidl \
