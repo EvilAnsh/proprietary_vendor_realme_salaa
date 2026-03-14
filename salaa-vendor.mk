@@ -1601,6 +1601,7 @@ PRODUCT_PACKAGES += \
     libbsproxy \
     libdav1d.so \
     libdpservice \
+    libmxmafa \
     libormshalclient \
     libpnscr2 \
     librpmbengclient \
