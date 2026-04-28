@@ -233,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/salaa/proprietary/vendor/etc/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_hifi3.xml \
     vendor/realme/salaa/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
-    vendor/realme/salaa/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/realme/salaa/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/realme/salaa/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/realme/salaa/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -314,7 +313,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
-    vendor/realme/salaa/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
@@ -502,8 +500,6 @@ PRODUCT_PACKAGES += \
     libcurl-ss \
     libcustom_nvram \
     libcvsd_mtk \
-    libdapparamstorage \
-    libdeccfg \
     libdecrypt \
     libdynamiclog \
     libfile_op \
@@ -582,9 +578,6 @@ PRODUCT_PACKAGES += \
     libspeechparser_vendor \
     libssl-md \
     libssl-ss \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
-    libstagefrightdolby \
     libstagefrighthw \
     libstrongswan \
     libsysenv \
@@ -610,10 +603,6 @@ PRODUCT_PACKAGES += \
     libnir_neon_driver \
     libpq_prot \
     libaudiopreprocessing_mtk \
-    libswdap \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
@@ -1406,7 +1395,6 @@ PRODUCT_PACKAGES += \
     libdip_drv \
     libdip_imem \
     libdip_postproc \
-    libdlbdsservice \
     libdre \
     libeffecthal.base \
     libfeature.face \
@@ -1560,7 +1548,6 @@ PRODUCT_PACKAGES += \
     sala_wide_ov8856_tuning \
     salaa_qtech_main_s5kgm1sp_IdxMgr \
     salaa_qtech_main_s5kgm1sp_tuning \
-    vendor.dolby.hardware.dms@2.0-impl \
     vendor.mediatek.hardware.apuware.xrp@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
@@ -1705,7 +1692,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_1_default.xml \
-    manifest_vendor.dolby.hardware.dms.xml \
     manifest_oplusSensor.xml \
     manifest_oplus_charger.xml \
     manifest_oplus_fingerprint.xml \
@@ -1738,7 +1724,6 @@ PRODUCT_PACKAGES += \
     camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
